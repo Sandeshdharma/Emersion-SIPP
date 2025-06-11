@@ -1,0 +1,31 @@
+.App {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.progress-container {
+  margin-bottom: 10px;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #3b82f6;
+  transition: width 2s linear;
+}
